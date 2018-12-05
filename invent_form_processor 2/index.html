@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" media="screen" href="form.css" />
+ 	<script type="text/javascript" src="form_validate.js"> </script>
+    <title>Form Example - Invent Partners</title>
+</head>
+<body>
+
+<h1>Example form</h1>
+<p>Free form processor.</p>
+<p>Provided by <a href="http://www.inventpartners.com">Invent Partners web design York</a></p>
+
+<!-- FORM STARTS HERE -->
+<form id="test_form" name="test_form" method="" action="form.php" onsubmit="return validateForm(this)">
+	
+    <div class="label_input_wrap">
+        <label for="form_name" style="width:150px">Enter your name:</label>
+        <input type="text" id="form_name" name="req_name" value="" style="width:200px" />
+    </div>
+
+    <div class="label_input_wrap">
+        <label for="form_gendercheck" style="width:150px">Gender</label>
+        <input type="radio" id="form_gendercheck_options_male" name="gendercheck" value="male" class="radio_button" />
+        <label for="form_gendercheck_options_male" style="width:" >Male </label>
+        <input type="radio" id="form_gendercheck_options_female" name="gendercheck" value="female" class="radio_button" />
+        <label for="form_gendercheck_options_female" style="width:" >Female </label>
+    </div>
+
+    <div class="label_input_wrap">
+        <label for="form_enquiry" style="width:150px" >Enquiry: </label>
+        <textarea id="form_enquiry" name="req_enquiry" style="width:200px" height:100px" ></textarea>
+    </div>
+
+    <div class="label_input_wrap">
+    	<input type="checkbox" id="form_some_checkboxes" name="some_checkboxes" value="" class="checkbox" />
+       	<label for="form_some_checkboxes">Newsletter </label>
+	</div>
+
+    <div class="label_input_wrap">
+        <label for="form_options" style="width:150px">Options</label>
+        <select id="form_options" name="req_options" style="width:200px">
+			<option id="form_options_options_option1" value="">SELECT</option>
+			<option id="form_options_options_option1" value="option1">Option 1</option>
+        	<option id="form_options_options_option2" value="option2">Option 2</option>
+       		<option id="form_options_options_option3" value="option3">Option 3</option>
+        </select>
+    </div>
+    
+	<input type="submit" name="submit" value="Submit" class="submit"/>
+
+</form>
+
+</body>
+</html>

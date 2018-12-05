@@ -31,3 +31,51 @@ header nav a:active {
 header nav a:visited {
   color: #f2c2cf;
 }
+
+form {
+  background: #d82263;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 5px;
+  color: #f2f2f3;
+  font-family: sans-serif;
+  margin: 20px auto;
+}
+
+.submit input {
+  background: #f2c2cf;
+  color: #d82263;
+  padding: 5px 20px;
+}
+
+.label_input_wrap {
+  display: block;
+}
+
+.input-selection {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+textarea {
+  font-family: sans-serif;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.about p::selection {
+  background: #54be90;
+  color: #f2f2f3;
+}
+
+.about {
+  padding: 20px 80px;
+}

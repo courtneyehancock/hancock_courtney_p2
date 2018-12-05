@@ -28,5 +28,37 @@
         </ul>
       </nav>
     </header>
+
+    <div>
+        <section class="contact">
+          <h1>Contact</h1>
+
+          <p>For more information about me, my life or my work, fill out this form and I'll get back to you as soon as I can!</p>
+        </section>
+    </div>
+
+    <div class="container">
+      <form id="test_form" name="test_form" method="post" action="form.php" onsubmit="return validateForm(this)">
+        <div class="name input-selection">
+          <label for="name" class="label_input_wrap">Name:</label>
+          <input type="text" name="name" id="name" placeholder="Jane Doe"/>
+        </div>
+
+        <div class="email input-selection">
+          <label for="email" class="label_input_wrap">Email:</label>
+          <input type="email" name="email" id="email" placeholder="janedoe@example.com"/>
+        </div>
+
+        <div class="message input-selection">
+          <label for="message" class="label_input_wrap">Message:</label>
+          <textarea name="message" id="message" cols="55" rows="15" placeholder="Write your message here."></textarea>
+        </div>
+
+        <div class="submit">
+          <input type="submit" value="Send me a message!">
+        </div>
+
+      </form>
+    </div>
   </body>
 </html>
