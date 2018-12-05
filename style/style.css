@@ -5,9 +5,9 @@
 }
 
 header {
-  text-align: center;
+  text-align: right;
   background-color: #d82263;
-  padding: 20px 0;
+  padding: 20px 70px;
 }
 
 header nav ul li {
