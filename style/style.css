@@ -71,11 +71,19 @@ label {
   font-weight: bold;
 }
 
-.about p::selection {
+.contact p::selection {
   background: #54be90;
   color: #f2f2f3;
 }
 
-.about {
+.contact {
   padding: 20px 80px;
+}
+
+section.img {
+  padding: 0 228px;
+}
+
+p {
+  text-align: center;
 }
