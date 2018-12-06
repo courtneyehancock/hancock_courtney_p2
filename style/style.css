@@ -4,6 +4,11 @@
   border: 0;
 }
 
+@font-face {
+  font-family: 'Anteater';
+  src: url('../style/anteater.ttf') format('truetype');
+}
+
 header {
   text-align: right;
   background-color: #d82263;
@@ -39,7 +44,7 @@ form {
   max-width: 500px;
   border-radius: 5px;
   color: #f2f2f3;
-  font-family: sans-serif;
+  font-family: 'Merriweather', serif;
   margin: 20px auto;
 }
 
@@ -63,7 +68,7 @@ input {
 }
 
 textarea {
-  font-family: sans-serif;
+  font-family: "Merriweather" , serif;
   padding: 10px 10px;
   border-radius: 5px;
 }
@@ -85,7 +90,26 @@ section.img {
   padding: 0px 228px 10px;
 }
 
-p {
+section.contact {
   text-align: center;
-  font-family: 'Merriweather' serif;
+  font-family: 'Merriweather' , serif;
+}
+
+section.about {
+  text-align: left;
+  font-family: 'Merriweather' , serif;
+}
+
+.about {
+  padding: 20px 80px;
+}
+
+h1 {
+  font-family: "Anteater";
+  font-size: 35px;
+  color: #d82263;
+}
+
+p {
+  padding: 10px;
 }
