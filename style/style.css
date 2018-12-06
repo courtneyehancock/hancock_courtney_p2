@@ -9,6 +9,30 @@
   src: url('../style/anteater.ttf') format('truetype');
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Anteater';
+  color: #d82263;
+  font-size: 35px;
+}
+
+p {
+  font-family: 'Merriweather',serif;
+  padding: 10px;
+  background-color: #f2f2f3;
+}
+
+/*========================================
+*
+*           Header
+*
+*
+*=========================================*/
+
 header {
   text-align: right;
   background-color: #d82263;
@@ -37,6 +61,13 @@ header nav a:active {
 header nav a:visited {
   color: #f2c2cf;
 }
+
+/*========================================
+*
+*     Contact Section
+*
+*
+*=========================================*/
 
 form {
   background: #d82263;
@@ -94,7 +125,12 @@ section.contact {
   text-align: center;
   font-family: 'Merriweather' , serif;
 }
-
+/*========================================
+*
+*     About Section
+*
+*
+*=========================================*/
 section.about {
   text-align: left;
   font-family: 'Merriweather' , serif;
@@ -104,12 +140,18 @@ section.about {
   padding: 20px 80px;
 }
 
-h1 {
-  font-family: "Anteater";
-  font-size: 35px;
-  color: #d82263;
+/*========================================
+*
+*     Footer Section
+*
+*
+*=========================================*/
+footer {
+  background: #d82263;
+  padding: 10px 30px;
+  text-align: right;
 }
 
-p {
-  padding: 10px;
+footer img {
+  width: 25px;
 }
