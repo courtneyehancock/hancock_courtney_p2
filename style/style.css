@@ -15,15 +15,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Anteater';
   color: #d82263;
+  font-family: 'Anteater';
   font-size: 35px;
 }
 
 p {
+  background-color: #f2f2f3;
   font-family: 'Merriweather',serif;
   padding: 10px;
-  background-color: #f2f2f3;
 }
 
 /*========================================
@@ -34,30 +34,36 @@ p {
 *=========================================*/
 
 header {
+  margin: 0 20px;
+  padding: 40px 70px;
   text-align: right;
-  padding: 20px 70px;
 }
 
-header nav ul li {
+nav ul li {
   display: inline;
 }
 
-header nav a {
-  color: #f2f2f3;
-  text-decoration: none;
-  margin: 0 20px;
-  font-family: "Merriweather", serif;
-}
-
-header nav a:hover {
+nav a {
+  background: #f2f2f3;
   color: #f06299;
+  font-family: "Merriweather", serif;
+  padding: 10px;
+  text-decoration: none;
+  transition: .5s;
 }
 
-header nav a:active {
-  color: #54be90;
+nav a:hover {
+  background: #f06299;
+  color: #f2f2f3;
+  opacity: 1;
+  transition: .5s;
 }
 
-header nav a:visited {
+nav a:active {
+  color: #ab4c5e;
+}
+
+nav a:visited {
   color: #f2c2cf;
 }
 
@@ -69,7 +75,24 @@ body {
   font-family: "Anteater";
   float: left;
 }
+/*========================================
+*
+*     Home
+*
+*
+*=========================================*/
+.top-images {
+  display:inline;
+}
 
+.portfolio {
+  padding: 0px 228px 10px
+}
+
+.top-images {
+  display: inline-block;
+  margin: auto;
+}
 /*========================================
 *
 *     Contact Section
