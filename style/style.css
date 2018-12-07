@@ -35,7 +35,6 @@ p {
 
 header {
   text-align: right;
-  background-color: #d82263;
   padding: 20px 70px;
 }
 
@@ -60,6 +59,15 @@ header nav a:active {
 
 header nav a:visited {
   color: #f2c2cf;
+}
+
+body {
+  background-color: #f2f2f3;
+}
+
+.signature {
+  font-family: "Anteater";
+  float: left;
 }
 
 /*========================================
