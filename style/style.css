@@ -85,13 +85,19 @@ body {
   display:inline;
 }
 
-.portfolio {
+.flowers {
   padding: 0px 228px 10px
 }
 
-.top-images {
+.block-images {
   display: inline-block;
   margin: auto;
+  padding: 10px 80px 0px;
+}
+
+.work {
+  padding: 0px 300px 10px;
+  margin: 10px 25px;
 }
 /*========================================
 *
