@@ -81,10 +81,6 @@ body {
 *
 *
 *=========================================*/
-.top-images {
-  display:inline;
-}
-
 .flowers {
   padding: 0px 228px 10px
 }
@@ -96,8 +92,51 @@ body {
 }
 
 .work {
-  padding: 0px 300px 10px;
-  margin: 10px 25px;
+  display: inline-flex;
+  margin: 10px 50px;
+  padding: 0px 330px 10px;
+}
+
+.writing {
+  padding: 0px 25px 10px;
+}
+
+.blog {
+  padding: 0px 25px 10px;
+}
+
+.section-1 {
+  width: 480px;
+  margin: 20px;
+  background-color: #f2c2cf;
+  color: #ab4c5e;
+  padding: 10px 10px;
+  float: right;
+  clear: both;
+}
+
+.section-2{
+  width: 480px;
+  margin: 20px;
+  background-color: #f2c2cf;
+  color: #ab4c5e;
+  padding: 10px 10px;
+  float: left;
+  clear: both;
+}
+.grad {
+  float: left;
+  clear: both;
+}
+
+.uda {
+  float: right;
+  clear: both;
+}
+
+.work,
+.grad-1 {
+  display: inline-flex;
 }
 /*========================================
 *
