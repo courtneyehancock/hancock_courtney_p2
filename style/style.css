@@ -151,8 +151,19 @@ body {
 .photo-icon,
 .design-icon,
 .writing-icon {
-  padding: 0 20px;
   margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-button {
+  background-color: #54be90;
+  border-radius: 5px;
+  color: #f2f2f3;
+  font-size: 25px;
+  max-width: 100px;
+  margin: 0 auto;
+  text-decoration: none;
+  padding: 10px;
 }
 /*========================================
 *
