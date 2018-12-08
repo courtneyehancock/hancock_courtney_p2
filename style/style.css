@@ -1,7 +1,7 @@
 * {
+  border: 0;
   margin: 0;
   padding: 0;
-  border: 0;
 }
 
 @font-face {
@@ -22,6 +22,7 @@ h6 {
 
 p {
   background-color: #f2f2f3;
+  color: #ab4c5e;
   font-family: 'Merriweather',serif;
   padding: 10px;
 }
@@ -45,7 +46,7 @@ nav ul li {
 
 nav a {
   background: #f2f2f3;
-  color: #f06299;
+  color: #d82263;
   font-family: "Merriweather", serif;
   padding: 10px;
   text-decoration: none;
@@ -72,8 +73,8 @@ body {
 }
 
 .signature {
-  font-family: "Anteater";
   float: left;
+  font-family: "Anteater";
 }
 /*========================================
 *
@@ -82,47 +83,47 @@ body {
 *
 *=========================================*/
 .flowers {
-  padding: 0px 228px 10px
+  padding: 0 228px 10px
 }
 
 .block-images {
   display: inline-block;
   margin: 0 auto;
-  padding: 10px 80px 0px;
+  padding: 10px 80px 0;
 }
 
 .work {
   display: inline-flex;
-  margin: 0 auto;
-  padding: 0px 350px 10px;
+  margin: 20px auto;
+  padding: 0 350px 10px;
 }
 
 .writing {
-  padding: 0px 25px 10px;
+  padding: 0 25px 10px;
 }
 
 .blog {
-  padding: 0px 25px 10px;
+  padding: 0 25px 10px;
 }
 
 .section-1 {
-  width: 400px;
-  height: 230px;
   background-color: #f2f2f3;
-  color: #ab4c5e;
-  padding: 10px 10px;
-  float: right;
   clear: both;
+  color: #ab4c5e;
+  float: right;
+  height: 230px;
+  padding: 10px 10px;
+  width: 400px;
 }
 
 .section-2{
-  width: 400px;
-  height: 255px;
   background-color: #f2f2f3;
-  color: #ab4c5e;
-  padding: 10px 10px;
-  float: left;
   clear: both;
+  color: #ab4c5e;
+  float: left;
+  height: 255px;
+  padding: 10px 10px;
+  width: 400px;
 }
 .grad {
   clear: both;
@@ -140,6 +141,19 @@ body {
   margin: 0 auto;
   padding: 0 275px;
 }
+
+.portfolio-icons {
+  display: inline-flex;
+  margin: 10px auto;
+  padding: 20px 500px;
+}
+
+.photo-icon,
+.design-icon,
+.writing-icon {
+  padding: 0 20px;
+  margin: 0 auto;
+}
 /*========================================
 *
 *     Contact Section
@@ -149,12 +163,12 @@ body {
 
 form {
   background: #d82263;
-  padding: 20px;
-  max-width: 500px;
   border-radius: 5px;
   color: #f2f2f3;
   font-family: 'Merriweather', serif;
   margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
 }
 
 .submit input {
@@ -172,14 +186,14 @@ form {
 }
 
 input {
-  padding: 5px 10px;
   border-radius: 5px;
+  padding: 5px 10px;
 }
 
 textarea {
+  border-radius: 5px;
   font-family: "Merriweather" , serif;
   padding: 10px 10px;
-  border-radius: 5px;
 }
 
 label {
@@ -195,13 +209,13 @@ label {
   padding: 20px 80px;
 }
 
-section.img {
-  padding: 0px 228px 10px;
+.img {
+  padding: 0 228px 10px;
 }
 
 section.contact {
-  text-align: center;
   font-family: 'Merriweather' , serif;
+  text-align: center;
 }
 /*========================================
 *
@@ -210,8 +224,8 @@ section.contact {
 *
 *=========================================*/
 section.about {
-  text-align: left;
   font-family: 'Merriweather' , serif;
+  text-align: left;
 }
 
 .about {
