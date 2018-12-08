@@ -87,14 +87,14 @@ body {
 
 .block-images {
   display: inline-block;
-  margin: auto;
+  margin: 0 auto;
   padding: 10px 80px 0px;
 }
 
 .work {
   display: inline-flex;
-  margin: 10px 50px;
-  padding: 0px 330px 10px;
+  margin: 0 auto;
+  padding: 0px 350px 10px;
 }
 
 .writing {
@@ -106,9 +106,9 @@ body {
 }
 
 .section-1 {
-  width: 480px;
-  margin: 20px;
-  background-color: #f2c2cf;
+  width: 400px;
+  height: 230px;
+  background-color: #f2f2f3;
   color: #ab4c5e;
   padding: 10px 10px;
   float: right;
@@ -116,27 +116,29 @@ body {
 }
 
 .section-2{
-  width: 480px;
-  margin: 20px;
-  background-color: #f2c2cf;
+  width: 400px;
+  height: 255px;
+  background-color: #f2f2f3;
   color: #ab4c5e;
   padding: 10px 10px;
   float: left;
   clear: both;
 }
 .grad {
-  float: left;
   clear: both;
+  float: left;
 }
 
 .uda {
-  float: right;
   clear: both;
+  float: right;
 }
 
 .work,
 .grad-1 {
   display: inline-flex;
+  margin: 0 auto;
+  padding: 0 275px;
 }
 /*========================================
 *
