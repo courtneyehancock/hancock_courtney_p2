@@ -339,7 +339,7 @@ video {
   padding: 5px;
   text-align: center;
   border-radius: 5px;
-  margin: 0px auto;
+  margin: 10px auto;
 }
 
 .resume-download {
@@ -347,9 +347,10 @@ video {
   padding: 5px;
   max-width: 250px;
   text-align: center;
-  margin: 10px auto;
+  margin: 15px auto;
   border-radius: 5px;
   color: #d82263;
+  box-shadow: 5px 10px #129669;
 }
 
 
