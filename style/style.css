@@ -166,9 +166,10 @@ body {
   font-size: 25px;
   max-width: 100px;
   margin: 0 auto;
-  padding: 10px;
+  padding: 5px 10px;
   text-decoration: none;
 }
+
 /*========================================
 *
 *     Contact Section
@@ -304,6 +305,19 @@ h4 {
   border: 1px;
   outline-color: #9bd5c0;
   outline-style: solid;
+}
+/*========================================
+*
+*     Design Section
+*
+*
+*=========================================*/
+video {
+  margin-left: 50px;
+}
+
+.video h4{
+  margin: 25px 50px 10px;
 }
 /*========================================
 *
