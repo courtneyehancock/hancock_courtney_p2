@@ -91,10 +91,17 @@ body {
   padding: 0 228px 10px
 }
 
+.flowers:hover {
+  width: 950px;
+  transition: 1s;
+  opacity: .5;
+}
+
 .block-images {
   display: inline-block;
   margin: 0 auto;
   padding: 10px 80px 0;
+  position: relative;
 }
 
 .work {
@@ -110,13 +117,30 @@ body {
   padding: 20px;
 }
 
+.pseudo p::selection {
+  background: #9bd5c0;
+  color: #f2f2f3;
+}
+
+.pseudo {
+  padding: 20px 80px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.custom-text {
+  color: #54be90;
+  font-size: 25px;
+  font-family: Anteater;
+}
+
 .section-1 {
   background-color: #f2f2f3;
   clear: both;
   color: #ab4c5e;
   float: right;
-  height: 230px;
-  padding: 10px 10px;
+  height: 265px;
+  padding: 5px 5px;
   width: 400px;
 }
 
@@ -126,7 +150,7 @@ body {
   color: #ab4c5e;
   float: left;
   height: 255px;
-  padding: 10px 10px;
+  padding: 5px 5px;
   width: 400px;
 }
 .grad {
@@ -148,15 +172,14 @@ body {
 
 .portfolio-icons {
   display: inline-flex;
-  margin: 10px auto;
-  padding: 20px 500px;
+  padding: 10px 500px;
 }
 
 .photo-icon,
 .design-icon,
 .writing-icon {
-  margin: 0 auto;
-  padding: 0 20px;
+  margin: 10px;
+  padding: 10px;
 }
 
 .about-button {
@@ -369,6 +392,21 @@ section.about {
   padding: 20px 80px;
 }
 
+.heart {
+  position: relative;
+  width: 100px;
+  opacity: .5;
+  animation: float 15s linear infinite reverse;
+ }
+
+@keyframes float {
+  from {
+    left: -300px;
+  }
+  to {
+    left: 1500px;
+  }
+}
 /*========================================
 *
 *     Footer Section
