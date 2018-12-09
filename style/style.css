@@ -50,8 +50,8 @@ nav ul li {
 }
 
 nav a {
-  background: #f2f2f3;
   color: #d82263;
+  background: #f2f2f3;
   font-family: "Merriweather", serif;
   padding: 10px;
   text-decoration: none;
@@ -99,16 +99,15 @@ body {
 
 .work {
   display: inline-flex;
-  margin: 20px auto;
-  padding: 0 350px 10px;
+  margin: 0 auto;
 }
 
 .writing {
-  padding: 0 25px 10px;
+  padding: 20px;
 }
 
 .blog {
-  padding: 0 25px 10px;
+  padding: 20px;
 }
 
 .section-1 {
@@ -235,7 +234,7 @@ section.contact {
 }
 /*========================================
 *
-*     Portfolio/Photo/Design Section
+*     Photo Section
 *
 *
 *=========================================*/
@@ -251,10 +250,21 @@ section.contact {
 .gallery h1 {
   text-align: center;
 }
-
+/*========================================
+*
+*     Writing Section
+*
+*
+*=========================================*/
 .written-work h1 {
+  border: 1px;
+  outline-color: #f2c2cf;
+  outline-style: solid;
+  padding: 10px 0;
+  max-width: 600px;
   text-align: center;
-  margin: 0 auto;
+  margin: 0 400px;
+  border-radius: 5px;
 }
 
 h3 {
@@ -268,13 +278,54 @@ h4 {
   font-size: 20px;
   margin: 0 auto;
   padding: 5px;
-  color: #129669;
+  color: #54be90;
 }
 
 .world-record {
   max-width: 850px;
   padding: 20px;
   margin: 0 auto;
+}
+
+.passion {
+  border: 1px;
+  background-color: #9bd5c0;
+  padding: 5px;
+  max-width: 250px;
+  text-align: center;
+  margin: 10px 25px;
+  border-radius: 5px;
+  color: #d82263;
+}
+
+.blog-1 {
+  margin: 25px 10px;
+  padding: 5px;
+  border: 1px;
+  outline-color: #9bd5c0;
+  outline-style: solid;
+}
+/*========================================
+*
+*     Portfolio Section
+*
+*
+*=========================================*/
+.portfolio-icons p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.photo-icon,
+.design-icon,
+.writing-icon {
+  border: 1px;
+  outline-color: #f2c2cf;
+  outline-style: solid;
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 15px;
 }
 /*========================================
 *
