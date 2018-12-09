@@ -162,8 +162,8 @@ body {
   font-size: 25px;
   max-width: 100px;
   margin: 0 auto;
-  text-decoration: none;
   padding: 10px;
+  text-decoration: none;
 }
 /*========================================
 *
@@ -230,11 +230,19 @@ section.contact {
 }
 /*========================================
 *
-*     Portfolio Section
+*     Portfolio/Photo Section
 *
 *
 *=========================================*/
+.gallery img {
+  width:295px;
+}
 
+.gallery h2 {
+  font-size: 20px;
+  margin: 0 100px;
+  padding: 10px;
+}
 /*========================================
 *
 *     About Section
