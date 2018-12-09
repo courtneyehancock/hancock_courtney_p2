@@ -9,7 +9,12 @@
   src: url('../style/anteater.ttf') format('truetype');
 }
 
-h1,
+h1 {
+  color: #d82263;
+  font-family: 'Anteater';
+  font-size: 35px;
+}
+
 h2,
 h3,
 h4,
@@ -17,8 +22,8 @@ h5,
 h6 {
   color: #d82263;
   font-family: 'Anteater';
-  font-size: 35px;
 }
+
 
 p {
   background-color: #f2f2f3;
@@ -241,6 +246,35 @@ section.contact {
 .gallery h2 {
   margin: 0 100px;
   padding: 10px;
+}
+
+.gallery h1 {
+  text-align: center;
+}
+
+.written-work h1 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 25px;
+  margin: 0 auto;
+  padding: 5px;
+  color: #129669;
+}
+
+h4 {
+  font-size: 20px;
+  margin: 0 auto;
+  padding: 5px;
+  color: #129669;
+}
+
+.world-record {
+  max-width: 850px;
+  padding: 20px;
+  margin: 0 auto;
 }
 /*========================================
 *
