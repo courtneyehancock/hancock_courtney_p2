@@ -12,7 +12,7 @@
 
     gtag('config', 'UA-130650337-1');
   </script>
-  
+
   <title>Design</title>
 
   <meta charset="utf-8"/>
@@ -34,9 +34,25 @@
 </head>
 
   <body>
+  <div id="container">
+
+  <button class="hamburger">&#9776;</button>
+  <button class="cross">&#735;</button>
+
     <header>
-      <nav>
-        <h1 class="signature">Courtney</h1>
+
+      <nav class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+
+      <nav class="desktop-menu">
+        <h1 class="signature"><img src="img/signature_1.png" alt="signature" title="signature"/></h1>
+
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -47,8 +63,6 @@
     </header>
 
     <div class="video">
-      <h4>A promotional video I developed during my internship with Celebrations Catering in Gainesville, Florida</h4>
-
       <video width="320" height="240" controls>
         <source src="img/celebrations/celebrations.mov" type="video/mp4">
           <source src="movie.ogg" type="video/ogg">
@@ -57,7 +71,7 @@
     </div>
 
     <section class="gallery">
-      <h2>Class Projects</h2>
+      <h1>Class Projects</h1>
 <!--Roovillage project-->
       <a href="img/design/roovillage1.jpg" data-lightbox="image-1" data-title="Roovillage Client_Class Assignment"><img src="img/design/roovillage1.jpg" alt="Roovillage" title="Roovillage" /></a>
 
@@ -154,5 +168,7 @@
       </div>
 
     </footer>
+  </div>
+  <script src="scripts/hamburger.js"> </script>
   </body>
 </html>
